@@ -2,7 +2,7 @@
 version: '3'
 services:
   toposoid-deduction-unit-table-vector-match-web:
-    image: toposoid-deduction-unit-table-vector-match-web::0.7-SNAPSHOT
+    image: toposoid-deduction-unit-table-vector-match-web:0.7-SNAPSHOT
     tty: true
     environment:
       - PRIVATE_IP_ADDRESS=toposoid-deduction-unit-table-vector-match-web
